@@ -1,0 +1,37 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-twitter: #1DA1F2;
+  --color-facebook: #1877f2;
+  --color-linkedin: #0a66c2;
+}
+
+button {
+  border: 0;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin: 8px 12px;
+  border-radius: 8px;
+}
+
+.btn-twitter {
+  background-color: var(--color-twitter);
+}
+.btn-facebook {
+  background-color: var(--color-facebook);
+}
+.btn-linkedin {
+  background-color: var(--color-linkedin);
+}
